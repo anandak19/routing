@@ -1,0 +1,19 @@
+.product-details{
+    background-color: #cce0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.products-heading{
+    background-color: #003cff;
+    color: #ffffff;
+    font-size: 38px;
+    border-radius: 15px;
+    font-weight: 600;
+    padding: 12px;
+    margin: 66px 0 8px 0;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+<div class="products-page">
+    <div class="products-container">
+        <h1 class="products-heading">New Arrivals</h1>
+        
+        <router-outlet></router-outlet>
+
+        <div class="products-list">
+            <div class="product-tile" *ngFor="let product of products">
+                <img [src]="product.imageUrl" alt="" class="image">
+                <h3>{{ product.productName }}</h3> 
+                <p> {{ product.price }}</p> 
+                <a [routerLink]="'product/' + product.id" class="details-link">show more</a>
+            </div>
+        </div>
+    </div>
+</div>
